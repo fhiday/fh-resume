@@ -35,7 +35,7 @@ export default function LeftMenu() {
                     </Link>
                 </li>
                 <li className='w-full float-left'>
-                    <Link href="#" className={isActive === '/pengalaman-kerja' ? `font-sans` : `font-sans text-[#646464] hover:text-white`}>
+                    <Link href="pengalaman-kerja" className={isActive === '/pengalaman-kerja' ? `font-sans` : `font-sans text-[#646464] hover:text-white`}>
                         <Image src={isActive === '/pengalaman-kerja' ? imgActive(true) : imgActive(false)} width={16} height={4} className='float-left flex-shrink mt-[10px] mr-3' alt='menu-icon' />
                         Pengalaman Kerja
                     </Link>

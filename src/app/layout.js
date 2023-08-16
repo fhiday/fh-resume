@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover'
       }}>
-        <div className='grid md:grid-cols-12 gap-4 p-10'>
+        <div className='grid md:grid-cols-12 gap-4 py-10 px-5 md:px-10'>
           <div className='md:col-span-2 col-span-12'>
             <Link href={'/'}>
               <Image className='mb-3 rounded-full mx-auto md:left-24' src={avatar} alt="foto profil fauzan hidayat" width={132}
@@ -37,8 +37,8 @@ export default function RootLayout({ children }) {
           <div className='col-span-12 bg-[#646464] h-[1px]'></div>
         </div>
 
-        <div className='grid md:grid-cols-12 gap-4 px-10'>
-          <div className='md:col-span-2 col-span-12 hidden md:block'>
+        <div className='grid md:grid-cols-12 gap-4 px-5 md:px-10 py-10'>
+          <div className='md:col-span-2 col-span-12'>
             <LeftMenu />
           </div>
           <div className='col-span-10'>

@@ -38,11 +38,14 @@ export default function RootLayout({ children }) {
         </div>
 
         <div className='grid md:grid-cols-12 gap-4 px-5 md:px-10 py-10'>
-          <div className='md:col-span-2 col-span-12'>
+          <div className='md:col-span-2 col-span-12 hidden md:block'>
             <LeftMenu />
           </div>
           <div className='col-span-10'>
             {children}
+          </div>
+          <div className='md:col-span-2 col-span-12 block mt-10 md:hidden'>
+            <LeftMenu />
           </div>
         </div>
 
